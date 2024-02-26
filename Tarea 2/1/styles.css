@@ -57,7 +57,12 @@ section h2 {
 article .parrafo {
   color: yellow;
 }
+/*
 
+nav a [href = "link"] {
+  color: white;
+}
+*/
 nav li a {
   color: white;
 }
