@@ -1,7 +1,4 @@
-.imagen {
-    width: 400px;
-    height: 400px;
-}
+
 
 CSS
 body {
@@ -11,20 +8,26 @@ body {
   margin: 0;
   background: black;
 }
+header {
+  padding: 0;
+  margin: 0 ;
+}
 #general {
-
   border: 15px solid green;
-  padding: 15px;
+  padding: 0px 15px;
   margin: 0px;
   text-align: center;
   background-color: black;
   color: white
 }
+.titulo {
+  padding-top: 0;
+  margin-top: -40px;
+}
 h1, h2 {
   text-align: left;
   margin-bottom: 20px;
-  
-}
+  }
 
 p {
   line-height: 1.5;
@@ -46,10 +49,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #0056b3;
-}
-
 img {
   max-width: 100%;
   margin-bottom: 10px;
@@ -62,20 +61,34 @@ nav {
     text-align: left;
     padding: 10px 20px;
   }
-  
-  nav a {
-    padding: 10px;
+
+  nav li {
+    text-decoration: none;
+    font-size: 10px;
+    padding: 0px 10px;
+    display: inline-block;
+    text-align: left;    
   }
   
   nav a:hover {
     background-color: #e0e0e0;
+    color: black;
   }
 
-  section {
-    margin-bottom: 50px;
-  }
-  
-  section h2 {
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 10px;
-  }
+section {
+  margin-bottom: 50px;
+}
+
+section h2 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+
+div h2 {
+  text-align: center;
+}
+.imagen {
+  width: 400px;
+  height: 400px;
+}
