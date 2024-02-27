@@ -58,9 +58,23 @@ article .parrafo {
   color: yellow;
 }
 /*
+Alternativa a situacion real
 
 nav a [href = "link"] {
   color: white;
+}
+
+
+segunda solucion:
+
+nav li:nth-child(1) a {
+  color: blue;
+}
+nav li:nth-child(2) a {
+  color: red;
+}
+nav li:nth-child(3) a {
+  color: green;
 }
 */
 nav li a {
