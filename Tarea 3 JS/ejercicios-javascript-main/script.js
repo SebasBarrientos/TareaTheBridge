@@ -42,7 +42,7 @@ console.log (arrString[2])
 // Modifica el segundo elemento del array "numeros"
 arrNum[1] = 0
 // Modifica el último elemento del array "frutas"
-//arrString [last] = "last" NO ES COMO PYTHON
+                //arrString [last] = "last" NO ES COMO PYTHON
 arrString [arrString.length - 1] = "last"
 console.log (arrString)
 
